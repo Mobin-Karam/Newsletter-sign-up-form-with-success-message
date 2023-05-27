@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+
+    <!-- Title  -->
+    <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+    <!-- Meta Tags  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Links  -->
+    <link rel="stylesheet" href="./css/main.min.css">
+
+</head>
+
+<body>
+    <div id="root" class="container">
+        <section id="center" class="center">
+            <span id="al" class="alert">لطفا جالی خالی را پر کنید.</span>
+            <div class="left">
+                <form class="newsletterform" id="newsletterForm">
+                    <h1>با ما بروز بمانید!</h1>
+                    <p>به بیش از 60000 مدیر محصول بپیوندید که بروزرسانی‌های ماهانه را دریافت می‌کنند:</p>
+                    <ul class="listUI">
+                        <li class="item item1">کشف محصول و ساختن آنچه مهم است</li>
+                        <li class="item item2">
+                            اندازه‌گیری برای اطمینان از موفقیت آمیز بودن به‌روزرسانی‌ها</li>
+                        <li class="item item3">و خیلی بیشتر!</li>
+                    </ul>
+                    <label for="email">آدرس ایمیل :</label>
+                    <input type="email" id="email" name="email" placeholder="email@company.com" required>
+                    <button type="submit">مشترک شدن در خبرنامه ماهانه</button>
+                </form>
+            </div>
+            <div class="right">
+                <div class="bgimage"></div>
+            </div>
+        </section>
+        <section id="centerv2" class="centerv2">
+            <div class="tick">
+            </div>
+            <h1>ممنون از اینکه به خبرنامه ما متصل شدید!</h1>
+            <p>ایمیل تاییدیه فرستاده شد به<span id="markemail" class="markemail"></span> .لطفاً آن را باز کنید و روی دکمه داخل کلیک کنید تا اشتراک خود را تأیید کنید.</p>
+            <button id="dissmiss">رد کردن پیام</button>
+        </section>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
