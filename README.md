@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 # Frontend Mentor - Newsletter sign-up form with success message solution
 
 ## Table of contents
@@ -74,4 +76,8 @@ nothing
 
 - Website - [MobinKaram](https://mobinkaram.ir)
 - Frontend Mentor - [@mobinkaram](https://www.frontendmentor.io/profile/mobinkaram)
-- Twitter - [@mobinkaram](https://www.twitter.com/mobinkaram)
+- # Twitter - [@mobinkaram](https://www.twitter.com/mobinkaram)
+
+# Newsletter-sign-up-form-with-success-message
+
+> > > > > > > cc128ae9abe137f167647639540d9c2268978ada
